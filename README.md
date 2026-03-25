@@ -31,8 +31,8 @@ Dynamic typing can lead to unexpected bugs
 Hoisting and type coercion can be confusing
 Single-threaded execution model
 Harder to maintain large-scale applications without proper structure
-Some legacy behaviors (var, ==) remain
-📌 Conclusion
+Some legacy behaviors (var, ==) 
+remain 📌 Conclusion
 
 JavaScript has evolved from a simple scripting language into a core technology of the modern web. With continuous improvements through ECMAScript, it has become a powerful and versatile language for both client-side and server-side development.
 
@@ -70,6 +70,7 @@ Hoisting & coercion gây khó hiểu
 Single-threaded → cần xử lý async hợp lý
 Khó maintain với project lớn nếu thiếu cấu trúc
 Một số legacy behavior từ quá khứ (var, ==)
+
 📌 Kết luận
 
 JavaScript đã phát triển từ một ngôn ngữ scripting đơn giản thành nền tảng cốt lõi của web hiện đại. Với sự cải tiến liên tục của ECMAScript, JavaScript ngày càng mạnh mẽ và linh hoạt trong cả frontend lẫn backend.

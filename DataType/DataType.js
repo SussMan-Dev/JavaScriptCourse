@@ -61,7 +61,7 @@ console.log(typeof(a)); // output: number
 // console.log(e.age);
 
 // In javascript, null has been considered as an object type, so this is a bug that appear at JavaScript 1995
-// null was represented as a null pointer (0x00) The system interpreted that as having the same tag as an object
+// null was represented as a null pointer (`0x00`), and the system interpreted it as having the same type tag as an object
 
 // let g = null
 // console.log(typeof(g)); // object

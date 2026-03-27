@@ -3,9 +3,9 @@
 // number is a data type used to represent integers and floating-point numbers
 // this data type is commonly used to store values such as age, price, height, or calculation results
 
-console.log("DataType Number");
-let a = 123
-console.log(typeof(a)); // output: number
+// console.log("DataType Number");
+// let a = 123
+// console.log(typeof(a)); // output: number
 
 //========================================STRING========================================
 // string is a data type used to represent text
@@ -46,9 +46,11 @@ console.log(typeof(a)); // output: number
 // object is a data type used to store multiple values in a structured way
 // JavaScript has many types of objects, such as arrays, functions, and regular objects
 // for example, an array is a special kind of object, so typeof returns "object"
+
 // let d = ["hello", "world"]
 // console.log(typeof(d)); // output: object
 // console.log(d[0]);
+
 // you can access the values inside an array by their position, such as d[0]
 // array positions start at 0
 
@@ -61,21 +63,35 @@ console.log(typeof(a)); // output: number
 // console.log(e.age);
 
 // In javascript, null has been considered as an object type, so this is a bug that appear at JavaScript 1995
-// null was represented as a null pointer (`0x00`), and the system interpreted it as having the same type tag as an object
+// null was represented as a null pointer (0x00) The system interpreted that as having the same tag as an object, there is a strict that checking null to avoid you from bug
 
 // let g = null
 // console.log(typeof(g)); // object
 
-//========================================OBJECT========================================
-let f
-console.log(typeof(f)); // undefined
+//========================================UNDEFINED========================================
+// `undefined` means the variable exists, but no value has been assigned yet.
+// let f
+// console.log(typeof(f)); // undefined
 
-let h = 123n
-console.log(typeof(h)); // bigint
+//========================================SYMBOL========================================
+// Symbol is a primitive type that creates a unique value, often used as an object key to avoid name conflicts.
+// const id = Symbol("id");
 
-let i = Symbol("id")
-console.log(typeof(i)); // symbol
+// const user = {
+//   name: "Alice",
+//   [id]: 101
+// };
 
-let j = function() {}
-console.log(typeof(j)); // function
+// console.log(user[id]); // 101
+
+//========================================FUNCTION========================================
+// function is a different type of object, it have input type and output type clearly
+// let j = function() {}
+// console.log(typeof(j)); // function
+
+// let plus = function(a,b){
+//     console.log(a+b);
+// }
+// plus(5,2)
+// console.log(1);
 

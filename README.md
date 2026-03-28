@@ -1,4 +1,7 @@
-🇺🇸 JavaScript Overview
+Wrote by SussMan-dev
+Study route:
+Declaration => DataType => Console => Condition
+JavaScript Overview
 
 📘 Introduction
 

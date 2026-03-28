@@ -1,6 +1,10 @@
 Wrote by SussMan-dev
+--------------------------------------------------------------------------------------
 Study route:
-Declaration => DataType => Console => Condition
+
+Declaration => DataType => Console => Condition => SwitchCase =>
+
+--------------------------------------------------------------------------------------
 JavaScript Overview
 
 📘 Introduction

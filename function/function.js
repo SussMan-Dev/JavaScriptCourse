@@ -100,6 +100,5 @@ const student = {
         console.log(`Arrow function: ${this.name}`);
     }
 };
-
 student.normalFunction(); // David
 student.arrowFunction(); // usually undefined in this case

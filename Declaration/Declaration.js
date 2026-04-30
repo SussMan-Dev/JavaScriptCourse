@@ -36,4 +36,3 @@
 //========================================
 //output: Uncaught ReferenceError: Cannot access 'c' before initialization at DataType.js:24:13
 
-

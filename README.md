@@ -2,7 +2,7 @@ Wrote by SussMan-dev
 --------------------------------------------------------------------------------------
 Study route:
 
-Declaration => DataType => Console => Condition => SwitchCase => For-WhileLoop => Event
+Declaration => DataType => Console => Condition => SwitchCase => For-WhileLoop =>Array => Event
 
 --------------------------------------------------------------------------------------
 JavaScript Overview

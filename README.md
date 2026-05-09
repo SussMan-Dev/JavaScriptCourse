@@ -2,7 +2,7 @@ Wrote by SussMan-dev
 --------------------------------------------------------------------------------------
 Study route:
 
-Declaration => DataType => Console => Condition => SwitchCase => For-WhileLoop =>Array => ForEach => Event
+Declaration => DataType => Console => Condition => SwitchCase =>function => For-WhileLoop =>Array => ForEach => for in of => map => filter => DOM
 
 --------------------------------------------------------------------------------------
 JavaScript Overview

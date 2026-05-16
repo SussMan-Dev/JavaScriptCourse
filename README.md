@@ -88,6 +88,9 @@ The lessons are arranged from basic syntax to browser interaction. Follow the ro
     - Main topics: selecting a button, listening for clicks, checking style values, and changing text color.
     - Goal: Build confidence by connecting user action with visible page changes.
 
+17. `Todolist`
+    - Introduction: Learn to work with localStorage, build a list and modify with it
+    - Goal: build a todolist app
 ## Practice Projects
 
 After finishing the study route, try building these small projects:

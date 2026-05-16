@@ -5,7 +5,6 @@ let usersData = [
     {name: "Sơn", age: "17"},
 ]
 
-// chỉ lưu lần đầu
 if(!localStorage.getItem("users")){
     localStorage.setItem("users", JSON.stringify(usersData))
 }
@@ -20,7 +19,7 @@ const load = () => {
     users.forEach((user, index) => {
 
         data += `
-            <tr id="user-${index}">
+            <tr >
                 <td>${user.name}</td>
                 <td>${user.age}</td>
 
